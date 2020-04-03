@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: black; 
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+} 
+div{
+    display: block;
+}
+/* header section */
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2, h3, h4{
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    
+}
+
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1 ;
+}
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+    text-decoration: underline;
+}
+
+.logo{
+height: 50px;
+width: 100px;
+display: inline-block;
+box-sizing: border-box;
+
+}
+
+.logo img {
+    height: 50px;
+    padding: 0 0 0 10px;
+    display: inline-block;
+}
+
+.links{
+    text-decoration: underline;
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+
+
+.links_containter{
+    display: flex;
+    
+}
+
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+
+    /* Missiobn stuff */
+
+  
+    .newmission{
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    
+    .centered{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: black;
+        width: 100%;
+        padding-bottom: 10px;
+       
+    }
+    
+    /* Gallery Section */
+
+    .gallery_container{
+        height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+        
+    }
+
+    .gallery_pics{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .pic_and_caption img{
+        height: 200px;
+    margin: 10px;
+    display: block;
+        
+    }
+
+    /* Location */
+
+    #location_container{
+        height: 500px;
+    
+    background-image: url(./images/img-locations-background.jpg);
+    padding-top: 90px;
+    background-repeat: no-repeat;
+    
+    
+   
+    
+
+        
+    }
+
+    .locations{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .location{
+        width: 300px;
+    margin: 10px 20px;
+    display: block;
+    background-color: black;
+
+    }
